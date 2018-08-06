@@ -66,8 +66,8 @@ def roou():
     #if not os.path.exists("./" + deconv_folder):
     #os.makedirs("./"+ deconv_folder)
 
-    fits = '%s/*/*-g.fits' % (input)
-    files = glob.iglob(fits)
+    fits_files = '%s/*/*-g.fits_files' % (input)
+    files = glob.iglob(fits_files)
 
     for i in files:
         #print i
