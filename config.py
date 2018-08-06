@@ -1,7 +1,7 @@
 class Config:
     data_path = "figures"
     model_path_train = ""
-    model_path_test = "figures/checkpoint/model_20.ckpt" 
+    model_path_test = "figures/checkpoint/model_20.ckpt"
     output_path = "results"
 
     img_size = 424
@@ -14,4 +14,4 @@ class Config:
     beta1 = 0.5
     max_epoch = 20
     L1_lambda = 100
-    save_per_epoch=1
+    save_per_epoch = 1
